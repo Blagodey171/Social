@@ -1,10 +1,13 @@
 import React from 'react';
-// import logo from './logo.svg';
+import Header from './components/header/header.jsx'
 import './App.css';
 
 function App() {
   return (
-    <div>dfgs</div>
+    <div className="allComponent">
+      <Header />
+    </div>
+    
   );
 }
 
