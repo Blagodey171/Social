@@ -1,0 +1,25 @@
+.navigation {
+    width: 300px;
+    height: 565px;
+
+    background-color: gray;
+
+    transition: 2s;
+    
+    
+}
+
+.navigation:hover {
+    background-color: rgb(108, 65, 224);
+    
+    box-shadow: 0px 0px 40px black;
+
+    transform: scaleX(30deg); 
+
+    backface-visibility: hidden;
+    perspective: 1000;
+}
+
+.ul {
+    list-style-type: none;
+}
