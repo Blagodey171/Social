@@ -1,0 +1,24 @@
+.quest {
+    color: black;
+
+    font-size: 25px;
+}
+
+
+.li {
+    list-style-type: none;
+
+    margin-bottom: 15px;
+
+    transition: .5s;
+}
+
+.li:hover {
+    background-color: rgba(129, 97, 218, 0.664);
+
+    cursor: pointer;
+}
+
+.li:hover .quest {
+    color: white;
+}
