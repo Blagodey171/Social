@@ -1,16 +1,14 @@
-.quest {
-    color: black;
-
-    font-size: 25px;
+.linkSection {
+    font-size: 24px;
 }
-
-
 .li {
     list-style-type: none;
 
     margin-bottom: 15px;
 
     transition: .5s;
+
+    /* font-family:  */
 }
 
 .li:hover {
@@ -19,6 +17,7 @@
     cursor: pointer;
 }
 
-.li:hover .quest {
+.li:hover .linkSection {
+    transition: .5s;
     color: white;
 }

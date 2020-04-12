@@ -11,7 +11,7 @@ const navbar = (props) => {
                     <Navlink name='Skills' />
                     <Navlink name='Upgrade' />
                     <Navlink name='Pets' />
-                    <Navlink name='Loc' />
+                    <Navlink name='Location' />
                     <Navlink name='Clan' />
                     <Navlink name='Pvp' />
                     <Navlink name='Hero' />

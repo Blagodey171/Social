@@ -4,7 +4,7 @@ import s from './navlink.module.css';
 const navLink = (props) => {
     return (
         <li className={s.li}>
-            <a className={s.quest} >{props.name}</a>
+            <a className={s.linkSection} >{props.name}</a>
         </li>
     )
 }
