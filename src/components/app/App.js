@@ -1,15 +1,24 @@
 import React from 'react';
 import Header from '../header/header.jsx'
-import style from './App.module.css';
+import s from './App.module.css';
 import Navbar from '../navbar/navbar'
+import Quest from '../quest/quest'
+import { BrowserRouter } from 'react-router-dom';
 
-function App() {
+function App(props) {
   return (
-    <div className={style.allComponent}>
-      <Header />
-      <Navbar />
-    </div>
-    
+    <BrowserRouter>
+      <div className={s.allComponent}>
+        <Header />
+        <div className={s.main}>
+          <Navbar />
+          <div className={s.content}>
+            <Quest h1='Quest' />
+          </div>
+        </div>
+
+      </div>
+    </BrowserRouter>
   );
 }
 
