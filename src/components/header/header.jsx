@@ -1,13 +1,13 @@
 import React from 'react';
-import style from './header.module.css'
+import s from './header.module.css'
 import logo from "./logo.png"
 import Search from './searchAndAnimation/search'
 
 const header = () => {
     return (
-        <header className={style.header}>
-            <div className={style.headerLogo}>
-                <img src={logo} alt="#" className={style.logo}/>
+        <header className={s.header}>
+            <div className={s.headerLogo}>
+                <img src={logo} alt="#" className={s.logo}/>
             </div>
             <Search />
         </header>

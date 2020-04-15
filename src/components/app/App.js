@@ -3,21 +3,27 @@ import Header from '../header/header.jsx'
 import s from './App.module.css';
 import Navbar from '../navbar/navbar'
 import Quest from '../quest/quest'
-import { BrowserRouter } from 'react-router-dom';
+import Skills from '../skills/skills'
+import { BrowserRouter, Route } from 'react-router-dom';
 
 function App(props) {
   return (
     <BrowserRouter>
-      <div className={s.allComponent}>
-        <Header />
-        <div className={s.main}>
-          <Navbar />
-          <div className={s.content}>
-            <Quest h1='Quest' />
-          </div>
-        </div>
+        <div className={s.newsLive}>
+            <div className={s.allComponent}>
+                <Header />
 
-      </div>
+                <div className={s.main}>
+                    <Navbar />
+
+                    <div className={s.content}>
+                        <Route path="/quest" component={Quest}/>
+                        <Route path="/skills" component={Skills}/>
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </BrowserRouter>
   );
 }

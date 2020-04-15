@@ -1,5 +1,5 @@
 .navigation {
-    width: 300px;
+    width: 200px;
     height: 100%;
 
     background-color: rgb(193, 193, 255);
@@ -16,5 +16,7 @@
     width: 100%;
     height: 100%;
 
+    display: flex;
+    flex-direction: column;
     text-align: center;
 }

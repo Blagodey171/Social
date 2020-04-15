@@ -5,7 +5,7 @@ const search = () => {
     return (
         <div className={s.container}>
             <div className={s.headerAnimation}>
-
+                <h1>Profession,skills</h1>
             </div>
             <div className={s.headerSearch}>
                 <input type="text" className={s.headerSearchInput}/>

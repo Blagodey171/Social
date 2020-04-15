@@ -1,14 +1,14 @@
 import React from 'react';
-import s from './quest.module.css'
+import s from './skills.module.css'
 
-const quest = (props) => {
+const skills = () => {
     return (
         <div>
             <div className={s.container}>
-                <h1 className={s.title}>Quest</h1>
+                <h1 className={s.title}>Skills</h1>
             </div>
         </div>
     )
 }
 
-export default quest;
+export default skills;

@@ -5,10 +5,24 @@
     margin: 0;
 }
 
+.newsLive {
+    
+    max-width: 2500px;
+    height: 100%;
+    margin: 0 auto;
+
+    background-image: url(./back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
 .allComponent {
     max-width:  1600px;
     
-    margin: 0 auto;
+    margin: 0 auto 0 auto;
+
+    padding-top: 300px;
 }
 .main {
     display: flex;
@@ -18,8 +32,8 @@
 
 .content {
     display: flex;
-    width: 500px;
-    height: 500px;
+    width: 100%;
+    height: 100%;
 
     background-color: #000;
 }
