@@ -19,6 +19,11 @@ function App(props) {
                     <div className={s.content}>
                         <Route path="/quest" component={Quest}/>
                         <Route path="/skills" component={Skills}/>
+                        <Route path="/skills" component={Skills}/>
+                        <Route path="/skills" component={Skills}/>
+                        <Route path="/skills" component={Skills}/>
+                        <Route path="/skills" component={Skills}/>
+                        <Route path="/skills" component={Skills}/>
                     </div>
                 </div>
 
