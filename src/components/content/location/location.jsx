@@ -3,7 +3,9 @@ import s from './location.module.css';
 
 const location = () => {
     return (
-        <div></div>
+        <div>
+            <h1>location</h1>
+        </div>
     )
 }
 

@@ -3,7 +3,9 @@ import s from './pets.module.css';
 
 const pets = () => {
     return (
-        <div></div>
+        <div>
+            <h1>pets</h1>
+        </div>
     )
 }
 

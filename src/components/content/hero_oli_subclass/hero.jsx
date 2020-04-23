@@ -3,7 +3,9 @@ import s from './hero.module.css';
 
 const hero = () => {
     return (
-        <div></div>
+        <div>
+            <h1>hero</h1>
+        </div>
     )
 }
 

@@ -3,7 +3,9 @@ import s from './transform.module.css';
 
 const transform = () => {
     return (
-        <div></div>
+        <div>
+            <h1>transform</h1>
+        </div>
     )
 }
 

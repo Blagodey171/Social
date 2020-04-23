@@ -3,7 +3,9 @@ import s from './npc.module.css';
 
 const npc = () => {
     return (
-        <div></div>
+        <div>
+            <h1>npc</h1>
+        </div>
     )
 }
 

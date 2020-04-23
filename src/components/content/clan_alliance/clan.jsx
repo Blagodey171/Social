@@ -1,9 +1,11 @@
 import React from 'react';
 import s from './clan.module.css';
 
-const clan = () => {
+const clan = (props) => {
     return (
-        <div></div>
+        <div>
+            <h1>clan</h1>
+        </div>
     )
 }
 

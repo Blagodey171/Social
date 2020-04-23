@@ -3,7 +3,9 @@ import s from './imp.module.css';
 
 const imp = () => {
     return (
-        <div></div>
+        <div>
+            <h1>imp</h1>
+        </div>
     )
 }
 
