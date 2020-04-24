@@ -4,7 +4,6 @@ import { BrowserRouter, Route } from 'react-router-dom';
 import s from './App.module.css';
 
 import Header from '../header/header.jsx'
-
 import Navbar from '../navbar/navbar'
 import Quest from '../content/quest/quest'
 import Skills from '../content/skills/skills'

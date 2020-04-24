@@ -17,8 +17,10 @@
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     text-align: center;
+
+    
 }
 
 a {
@@ -31,6 +33,8 @@ a {
     color: rgb(0, 0, 0);
 
     transition: .5s;
+
+    margin: 0 auto;
 }
 
 a.active {
