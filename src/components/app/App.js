@@ -16,6 +16,8 @@ import Npc from '../content/npc_monster/npc'
 import Pets from '../content/pets_summon/pets'
 import Pvp from '../content/pvp_siege/pvp'
 import Transform from '../content/transform/transform'
+import Craft from '../content/craft/craft'
+import Servers from '../content/servers/servers'
 
 
 
@@ -27,20 +29,22 @@ function App(props) {
                 <Header />
 
                 <div className={s.main}>
-                    <Navbar />
+                    <Navbar navbar={props.navbar} />
 
                     <div className={s.content}>
-                        <Route path="/quest" component={Quest}/>
-                        <Route path="/skills" component={Skills}/>
-                        <Route path="/clan" component={Clan}/>
-                        <Route path="/hero" component={Hero}/>
-                        <Route path="/imp" component={Imp}/>
-                        <Route path="/item" component={Item}/>
-                        <Route path="/location" component={Location}/>
-                        <Route path="/npc" component={Npc}/>
-                        <Route path="/pets" component={Pets}/>
-                        <Route path="/pvp" component={Pvp}/>
-                        <Route path="/transform" component={Transform}/>
+                        <Route path="/quest" render={() => <Quest/>}/>
+                        <Route path="/skills" render={() => <Skills/>}/>
+                        <Route path="/clan" render={() => <Clan/>}/>
+                        <Route path="/hero" render={() => <Hero/>}/>
+                        <Route path="/imp" render={() => <Imp/>}/>
+                        <Route path="/item" render={() => <Item/>}/>
+                        <Route path="/location" render={() => <Location/>}/>
+                        <Route path="/npc" render={() => <Npc/>}/>
+                        <Route path="/pets" render={() => <Pets/>}/>
+                        <Route path="/pvp" render={() => <Pvp/>}/>
+                        <Route path="/transform" render={() => <Transform/>}/>
+                        <Route path="/craft" render={() => <Craft/>}/>
+                        <Route path="/servers" render={() => <Servers/>}/>
                         
                     </div>
                 </div>

@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './components/app/App'
 import * as serviceWorker from './serviceWorker';
+import state from './state/data'
+
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App navbar={state}/>
   </React.StrictMode>,
   document.getElementById('root')
 );
