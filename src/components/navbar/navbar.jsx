@@ -4,14 +4,8 @@ import s from './navbar.module.css';
 
 import Navlink from './navlink/navlink'
 
-
-
-
-
-
-
 const navbar = (props) => {
-    let linkProps = props.navbar.map( el => <Navlink to={el.to} nameLink={el.nameLink} activeClassName={s.style}/>) ;
+    let linkProps = props.navbar.map( el => <Navlink to={el.to} nameLink={el.nameLink} activeClassName={s.active}/>) ;
     
     return (
         <div className={s.navigation}>

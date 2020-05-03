@@ -24,7 +24,7 @@ import Servers from '../content/servers/servers'
 function App(props) {
   return (
     <BrowserRouter>
-        <div className={s.newsLive}>
+        <div className={s.container}>
             <div className={s.allComponent}>
                 <Header />
 

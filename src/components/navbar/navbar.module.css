@@ -24,7 +24,7 @@
 }
 
 a {
-    width: 220px;
+    width: 280px;
     
     font-size: 20px;
     font-weight: 700;
@@ -34,7 +34,7 @@ a {
 
     transition: .5s;
 
-    margin: 0 auto;
+    padding: 0 10px 0 10px;
 }
 
 a.active {
